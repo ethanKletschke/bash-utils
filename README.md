@@ -26,3 +26,14 @@ behind this entire project.
 
 This function merely makes a directory and changes into it immediately, with
 some added validation to prevent errors from incorrect input.
+
+### `count-files`
+
+Currently displays the number of files and directories in the working
+directory.
+
+In future, the script will:
+
+- Not count directories
+- Have fully formatted output
+- Take a directory as a command-line argument and count in that directory
