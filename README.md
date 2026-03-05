@@ -32,8 +32,4 @@ some added validation to prevent errors from incorrect input.
 Currently displays the number of files and directories in the working
 directory.
 
-In future, the script will:
-
-- Not count directories
-- Have fully formatted output
-- Take a directory as a command-line argument and count in that directory
+In future, the script won't count directories.
