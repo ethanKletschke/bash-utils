@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # Note: Won't work as a pure shell script. Copy and paste this into
 # ".bashrc" at the bottom of the file.
 
@@ -13,7 +14,7 @@ mcd() {
   # If the directory already exists
   if [ -d "$1" ]; then
   # Notify the user and change to the existing directory
-    echo "Notice: Directory \"$1\" already exists. Moving to directory $1."
+    echo "Notice: Directory \"$1\" already exists. Moving to directory \"$1\"."
     cd "$1"
     return 0
   fi
