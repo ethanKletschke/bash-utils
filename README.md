@@ -8,6 +8,15 @@ A collection of Bash utility commands.
 - License: MIT
 - Project metadata file: [project.yaml](./meta/project.yaml)
 
+---
+
+- [bash-utils](#bash-utils)
+  - [Current Scripts](#current-scripts)
+    - [`mcd` (Make-and-change Directory)](#mcd-make-and-change-directory)
+    - [`count-files`](#count-files)
+
+---
+
 ## Current Scripts
 
 ### `mcd` (Make-and-change Directory)
