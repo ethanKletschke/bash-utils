@@ -1,4 +1,12 @@
 #!/usr/bin/env bash
 
-fcount=$(ls -1 | wc -l)
-echo "Count of files and directories: ${fcount}"
+if [ $# -ne 0 ]; then
+  dir=$1
+else
+  dir="."
+fi
+
+fcount=$(ls "$dir" -1 | wc -l)
+dispDir=$(basename "$(realpath $dir)")
+
+echo "Count of files and directories in directory \"${dispDir}\": ${fcount}"
