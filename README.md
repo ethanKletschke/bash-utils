@@ -22,6 +22,7 @@ A collection of Bash utility commands.
 ### `mcd` (Make-and-change Directory)
 
 `mcd` was a function I created for my own `.bashrc`, and was the inspiration
-behind this entire project.  
+behind this entire project.
+
 This function merely makes a directory and changes into it immediately, with
 some added validation to prevent errors from incorrect input.
