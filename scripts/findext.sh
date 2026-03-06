@@ -1,3 +1,11 @@
 #!/usr/bin/env bash
 
-echo "$(basename $0) not implemented yet."
+if [ $# -eq 0 ]; then
+  echo "No arguments provided."
+  return 1
+fi
+
+ext="${1:-''}"
+dir="${2:-.}"
+
+ls -A | grep -E "\.${1}"

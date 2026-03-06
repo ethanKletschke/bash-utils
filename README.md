@@ -38,3 +38,8 @@ In future, the script won't count directories.
 ### `findext`
 
 Finds all files with a provided file extension.
+
+The arguments are as follows:
+
+1. The file extension to search for, excluding the preceding `.`
+2. The directory to search (defaults to the current directory)
