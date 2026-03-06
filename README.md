@@ -14,6 +14,7 @@ A collection of Bash utility commands.
   - [Current Scripts](#current-scripts)
     - [`mcd` (Make-and-change Directory)](#mcd-make-and-change-directory)
     - [`count-files`](#count-files)
+    - [`findext`](#findext)
 
 ---
 
@@ -33,3 +34,7 @@ Currently displays the number of files and directories in the working
 directory or a provided directory.
 
 In future, the script won't count directories.
+
+### `findext`
+
+Finds all files with a provided file extension.
