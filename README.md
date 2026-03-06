@@ -3,7 +3,7 @@
 A collection of Bash utility commands.
 
 - Author: Ethan Kletschke
-- Version: `0.0.2`
+- Version: `0.0.3`
 - Developed on: Ubuntu (WSL2)
 - License: MIT
 - Project metadata file: [project.yaml](./meta/project.yaml)
@@ -30,6 +30,6 @@ some added validation to prevent errors from incorrect input.
 ### `count-files`
 
 Currently displays the number of files and directories in the working
-directory.
+directory or a provided directory.
 
 In future, the script won't count directories.
