@@ -8,7 +8,7 @@ if [ $# -eq 0 ]; then
 fi
 
 # Store the file extension
-ext="${1:-''}"
+ext="${1}"
 # Store the directory to search
 dir="${2:-.}"
 
