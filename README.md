@@ -16,6 +16,7 @@ A collection of Bash utility commands.
     - [`todo-finder`](#todo-finder)
     - [`count-files`](#count-files)
     - [`findext`](#findext)
+    - [`dir-usage`](#dir-usage)
 
 ---
 
@@ -49,3 +50,8 @@ The arguments are as follows:
 
 1. The file extension to search for, excluding the preceding `.`
 2. The directory to search (defaults to the current directory)
+
+### `dir-usage`
+
+Displays the current directory's size on disk with more formatted output than
+Bash's built-in `du`.
