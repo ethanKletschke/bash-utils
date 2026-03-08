@@ -13,6 +13,7 @@ A collection of Bash utility commands.
 - [bash-utils](#bash-utils)
   - [Current Scripts](#current-scripts)
     - [`mcd` (Make-and-change Directory)](#mcd-make-and-change-directory)
+    - [`todo-finder`](#todo-finder)
     - [`count-files`](#count-files)
     - [`findext`](#findext)
 
@@ -27,6 +28,10 @@ behind this entire project.
 
 This function merely makes a directory and changes into it immediately, with
 some added validation to prevent errors from incorrect input.
+
+### `todo-finder`
+
+Finds `TODO` comments in source code files, and lists them out.
 
 ### `count-files`
 
