@@ -31,7 +31,8 @@ some added validation to prevent errors from incorrect input.
 
 ### `todo-finder`
 
-Finds `TODO` comments in source code files, and lists them out.
+Finds `TODO` line comments in source code files in the current directory,
+and lists them out. Excludes the `.git` and `node_modules` directories.
 
 ### `count-files`
 
