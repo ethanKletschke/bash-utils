@@ -37,10 +37,8 @@ and lists them out. Excludes the `.git` and `node_modules` directories.
 
 ### `count-files`
 
-Currently displays the number of files and directories in the working
+Displays the number of files in the working
 directory or a provided directory.
-
-In future, the script won't count directories.
 
 ### `findext`
 
