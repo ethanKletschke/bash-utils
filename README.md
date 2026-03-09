@@ -3,7 +3,7 @@
 A collection of Bash utility commands.
 
 - Author: Ethan Kletschke
-- Version: `0.1.1`
+- Version: `0.2.0`
 - Developed on: Ubuntu (WSL2)
 - License: MIT
 - Project metadata file: [project.yaml](./meta/project.yaml)
@@ -17,6 +17,7 @@ A collection of Bash utility commands.
     - [`count-files`](#count-files)
     - [`findext`](#findext)
     - [`dir-usage`](#dir-usage)
+    - [`git-log-find`](#git-log-find)
 
 ---
 
@@ -53,3 +54,20 @@ The arguments are as follows:
 
 Displays the current directory's size on disk with more formatted output than
 Bash's built-in `du`.
+
+### `git-log-find`
+
+Finds all git logs in a repository that match a specified prefix.
+
+For example:
+
+```bash
+git-log-find test
+```
+
+Would output:
+
+```
+b1c3d5e test(mcd): Write missing unit test for mcd
+a1b2c3d test: Write unit tests
+```
