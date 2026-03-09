@@ -3,5 +3,5 @@
 # Get the size of the current directory on disk
 size=$(du -sh | cut -f1)
 
-# Display the size temporarily
-echo "$size"
+# "B" just appends a B for a more readable unit
+echo "Current directory size: ${size}B"
