@@ -9,8 +9,8 @@ else
   dir="."
 fi
 
-# Count all files and directories in the provided directory
-fcount=$(ls "$dir" -A1 | wc -l)
+# Count all files in the provided directory
+fcount=$(find "$dir" -path "./.git" -prune -a -path "./node_modules" -o -type f  | wc -l)
 
 # Get the resolved directory name from user input.
 # Works even if the user provides "../" or "./" as the
