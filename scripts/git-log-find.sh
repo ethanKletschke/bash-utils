@@ -7,6 +7,11 @@ if [ $# -eq 0 ]; then
   exit 1
 fi
 
+if [[ $1 == "" ]]; then
+  echo "Commit type cannot be empty."
+  exit 1
+fi
+
 # If the first argument provided isn't alphanumeric
 if [[ ! $1 =~ ^[a-zA-Z0-9]+$ ]]; then
   echo "Invalid Conventional Commit type. Must be alphanumeric."
