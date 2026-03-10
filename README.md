@@ -15,7 +15,7 @@ A collection of Bash utility commands.
     - [`mcd` (Make-and-change Directory)](#mcd-make-and-change-directory)
     - [`todo-finder`](#todo-finder)
     - [`count-files`](#count-files)
-    - [`findext`](#findext)
+    - [`find-ext`](#find-ext)
     - [`dir-usage`](#dir-usage)
     - [`git-log-find`](#git-log-find)
 
@@ -41,7 +41,7 @@ and lists them out. Excludes the `.git` and `node_modules` directories.
 Displays the number of files in the working
 directory or a provided directory.
 
-### `findext`
+### `find-ext`
 
 Finds all files with a provided file extension.
 
