@@ -3,7 +3,7 @@
 A collection of Bash utility commands.
 
 - Author: Ethan Kletschke
-- Version: `0.2.0`
+- Version: `0.3.0`
 - Developed on: Ubuntu (WSL2)
 - License: MIT
 - Project metadata file: [project.yaml](./meta/project.yaml)
