@@ -11,6 +11,8 @@ project-meta:
 build:
   dev-environments:
     - Ubuntu (WSL2)
+  test-environments:
+    - Ubuntu (WSL2)
   target-platforms:
     - Linux
   interpreter:
