@@ -1,6 +1,6 @@
 # bash-utils
 
-A collection of Bash utility commands.
+A collection of simple Bash utility commands.
 
 - Author: Ethan Kletschke
 - Version: `0.2.0`
