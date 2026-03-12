@@ -10,7 +10,7 @@ else
 fi
 
 # Count all files in the provided directory
-fcount=$(find "$dir" -path "./.git" -prune -a -path "./node_modules" -o -type f  | wc -l)
+fcount=$(find "$dir" -path "./.git" -prune -a -path "./node_modules" -prune -o -type f  | wc -l)
 
 # Get the resolved directory name from user input.
 # Works even if the user provides "../" or "./" as the
