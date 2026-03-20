@@ -19,6 +19,7 @@ A collection of simple Bash utility commands.
     - [`find-ext`](#find-ext)
     - [`dir-usage`](#dir-usage)
     - [`git-log-find`](#git-log-find)
+    - [`file-type-count`](#file-type-count)
 
 ---
 
@@ -77,3 +78,9 @@ Would output:
 b1c3d5e feat: Write `lower-files` script
 a1b2c3d feat: Write `mcd` script
 ```
+
+### `file-type-count`
+
+Counts files in a directory and groups the counts by file type. In future,
+this will be merged with `count-files` when I learn how to do flags, e.g.,
+`-t`.
