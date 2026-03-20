@@ -1,12 +1,12 @@
 project-meta:
   project-name: Bash Utility Scripts
   date-started: 2026-03-03
-  last-updated: 2026-03-10
+  last-updated: 2026-03-20
   languages:
     - Bash
   status: Stable
   license: MIT
-  version: 0.3.0
+  version: 0.4.0
 
 build:
   dev-environments:
