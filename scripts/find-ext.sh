@@ -9,7 +9,7 @@ fi
 
 # Store the file extension
 ext="${1}"
-# Store the directory to search
+# Store the directory to search ("." by default)
 dir="${2:-.}"
 
 # Display the files found with the extension provided
