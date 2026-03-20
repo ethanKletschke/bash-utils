@@ -68,12 +68,12 @@ Finds all git logs in a repository that match a specified prefix.
 For example:
 
 ```bash
-git-log-find test
+git-log-find feat
 ```
 
 Would output:
 
 ```
-b1c3d5e test(mcd): Write missing unit test for mcd
-a1b2c3d test: Write unit tests
+b1c3d5e feat: Write `lower-files` script
+a1b2c3d feat: Write `mcd` script
 ```
